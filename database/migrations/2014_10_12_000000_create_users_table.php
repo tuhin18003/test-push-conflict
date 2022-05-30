@@ -22,7 +22,6 @@ return new class extends Migration
             $table->rememberToken();
             $table->string('country');
             $table->string('state');
-            $table->string('city');
             $table->timestamps();
         });
     }
